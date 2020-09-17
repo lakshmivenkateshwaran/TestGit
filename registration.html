@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="registration.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header" style="text-align: center;"><h2>Welcome!</h2></div>
+        <form>
+                <div class="col-md-6 col-lg-4   my-5 bg-dark text-white">
+                    <h1 style="text-align: center;">Registration</h1>
+                    <br>
+                    <label for="fname"><b>First name</b></label><br>
+                    <input type="text" id="fname" placeholder="Enter your first name" name="fname" value="Venki"><br>
+                    <label for="lname"><b>Last name</b></label><br>
+                    <input type="text" id="lname" placeholder="Enter your last name" name="lname" value="Vasudevan"><br>
+                    <label for="email"><b>Email</b></label>  
+                    <input type="text" placeholder="Enter Email" name="email" required><br>
+                    <label for="psw"><b>Password</b></label>  
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label>   
+                       <b>Gender</b>  
+                        </label><br>  
+                        <select id="Gender" name="Gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                          </select>  
+                        <br>
+                        <label> 
+                            <b>Phone</b>
+                            </label>
+                            <input type="text" name="phone"  value="+91" size="10"/><br>
+                            <button type="button" class="btn btn-outline-success">Register</button>
+                </div>
+                <div class="card-footer" style="text-align: center;"><h2>Thank you!</h2></div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
